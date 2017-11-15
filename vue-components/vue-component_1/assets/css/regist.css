@@ -1,0 +1,83 @@
+html,body,div,p,form,ul,li,ol,dl,dt,dd,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:100px;
+    height:100%;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    height:100%;
+    font-size:14px;
+	background: white;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+ul,li{
+    list-style:none;
+}
+img{
+    border:none;
+    display: block;
+}
+
+/*header*/
+header{
+	height:0.5rem;
+	display: flex;
+	background: #f5f5f5;
+	padding-left:0.1rem;
+	align-items: center;
+}
+header img{
+	width:0.18rem;
+	height:0.23rem;
+	margin-right: 0.18rem;
+}
+header span{
+	font-size: 18px;
+	color: #707070;
+}
+
+/*section*/
+section{
+	margin-top: 0.62rem;
+}
+.r-china,.r-phone,.r-random{
+	width:3.09rem;
+	margin:0 auto;
+	height:0.4rem;
+	border-bottom:1px solid #bdbdbd;
+	margin-bottom: 0.16rem;
+}
+.r-china span{
+	font-size: 16px;
+	color:#00bfae;
+	float:right;
+	line-height: 0.4rem;
+}
+section input{
+	border:none;
+	line-height: 0.4rem;
+}
+.r-phone input{
+	text-align: center;
+}
+.r-random input:first-child{
+	width:1.75rem;
+}
+.r-random input:last-child{
+	float:right;
+	background: white;
+}
+.r-login{
+	width:3.09rem;
+	height:0.4rem;
+	display: block;
+	background: #2eddc6;
+	margin:0.5rem auto;
+	border-radius:0.1rem;
+}

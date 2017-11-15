@@ -1,0 +1,210 @@
+@charset "UTF-8";
+html, body, div, p, h1, h2, h3, h4, h5, h6, img, input, form, fieldset, legend, table, th, tr, dt, ul, li, ol, dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 26.27vw;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "微软雅黑",Arial;
+  /*background: red;*/
+  /*font-size: 16px;*/
+}
+
+ul, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #f0f0f0;
+}
+
+#header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  height: 0.5rem;
+  width: 100%;
+  background: white;
+}
+#header ul:nth-child(1) {
+  display: flex;
+  align-items: center;
+  margin-left: 0.1rem;
+  width: 30%;
+  justify-content: space-around;
+}
+#header ul:nth-child(1) img {
+  width: 0.27rem;
+  height: 0.27rem;
+}
+#header ul:nth-child(1) p:nth-child(2) {
+  font-size: 17px;
+  color: #151515;
+  line-height: 0.5rem;
+}
+#header ul:nth-child(2) {
+  margin-right: 0.1rem;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#header ul:nth-child(2) img {
+  width: 0.27rem;
+  height: 0.27rem;
+}
+
+#content {
+  background: #f0f0f0;
+}
+#content img:nth-child(1) {
+  width: 100%;
+  height: 2.28rem;
+}
+#content ul:nth-child(2) {
+  height: 0.63rem;
+  display: flex;
+  background: white;
+  align-items: center;
+  padding-left: 0.1rem;
+  padding-right: 0.1rem;
+  justify-content: flex-end;
+  border-bottom: 1px solid #e6e6e6;
+}
+#content ul:nth-child(2) p:nth-child(1), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(2), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(2), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(3), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(3), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(4), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(4), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(5), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(5), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(6), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(6), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(7), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(7), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(8), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(8), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(9), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(9), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(10), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(10), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(11), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(11), #content ul:nth-child(2) ul:nth-child(6) li:nth-child(2) p:nth-child(12), #content ul:nth-child(6) li:nth-child(2) ul:nth-child(2) p:nth-child(12) {
+  font-size: 12px;
+  color: #cbcbcb;
+  margin-top: 0.2rem;
+}
+#content ul:nth-child(2) p:nth-child(2) {
+  font-size: 14px;
+  height: 0.42rem;
+  line-height: 0.42rem;
+  width: 1.21rem;
+  background: #fe9900;
+  border-radius: 0.03rem;
+  margin-left: 0.1rem;
+  padding-left: 0.1rem;
+  color: white;
+}
+#content p:nth-child(3) {
+  background: white;
+  font-size: 14px;
+  color: #1d1d1d;
+  line-height: 0.46rem;
+  border-bottom: 1px solid #e6e6e6;
+  padding-left: 0.2rem;
+}
+#content ul:nth-child(4) {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  height: 0.84rem;
+  background: white;
+}
+#content ul:nth-child(4) li:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+#content ul:nth-child(4) li:nth-child(1) p {
+  font-size: 14px;
+  color: #999999;
+  line-height: 0.42rem;
+}
+#content ul:nth-child(4) p:nth-child(2) {
+  font-size: 14px;
+  color: #999999;
+  line-height: 0.42rem;
+}
+#content ul:nth-child(5) {
+  margin-top: 0.2rem;
+  height: 0.9rem;
+  background: white;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-top: 0.08rem;
+}
+#content ul:nth-child(5) li:nth-child(1) {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.08rem;
+}
+#content ul:nth-child(5) li:nth-child(1) p {
+  font-size: 4px;
+  color: #5c5c5c;
+  width: 1rem;
+  height: 0.33rem;
+  line-height: 0.33rem;
+  border: 1px solid #c9c9c7;
+  border-radius: 0.05rem;
+  padding-left: 0.1rem;
+}
+#content ul:nth-child(5) p:nth-child(2) {
+  font-size: 12px;
+  color: #5c5c5c;
+  width: 1rem;
+  height: 0.33rem;
+  line-height: 0.33rem;
+  border: 1px solid #c9c9c7;
+  border-radius: 0.05rem;
+  padding-left: 0.1rem;
+}
+#content ul:nth-child(6) {
+  background: white;
+  height: 1.58rem;
+  margin-top: 0.1rem;
+}
+#content ul:nth-child(6) li:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 0.45rem;
+  border-bottom: 1px solid #e6e6e6;
+}
+#content ul:nth-child(6) li:nth-child(1) img {
+  width: 1.31rem;
+  height: 0.13rem;
+  padding-left: 0.2rem;
+}
+#content ul:nth-child(6) li:nth-child(1) p {
+  font-size: 14px;
+  color: #8c8c8c;
+  padding-right: 0.2rem;
+}
+#content ul:nth-child(6) li:nth-child(2) {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#content ul:nth-child(6) li:nth-child(2) p:nth-child(1), #content ul:nth-child(6) li:nth-child(2) p:nth-child(2), #content ul:nth-child(6) li:nth-child(2) p:nth-child(3), #content ul:nth-child(6) li:nth-child(2) p:nth-child(4), #content ul:nth-child(6) li:nth-child(2) p:nth-child(5), #content ul:nth-child(6) li:nth-child(2) p:nth-child(6), #content ul:nth-child(6) li:nth-child(2) p:nth-child(7), #content ul:nth-child(6) li:nth-child(2) p:nth-child(8), #content ul:nth-child(6) li:nth-child(2) p:nth-child(9), #content ul:nth-child(6) li:nth-child(2) p:nth-child(10), #content ul:nth-child(6) li:nth-child(2) p:nth-child(11), #content ul:nth-child(6) li:nth-child(2) p:nth-child(12) {
+  font-size: 12px;
+  color: #5c5c5c;
+  width: 0.75rem;
+  height: 0.33rem;
+  line-height: 0.33rem;
+  border: 1px solid #c9c9c7;
+  border-radius: 0.05rem;
+  padding-left: 0.15rem;
+}
+
+/*# sourceMappingURL=index.css.map */

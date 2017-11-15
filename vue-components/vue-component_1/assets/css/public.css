@@ -1,0 +1,28 @@
+html,body,div,p,form,ul,li,ol,dl,dt,dd,table,tr,td,th,hr,h1,h2,h3,h4,h5,h6,img,input{
+    margin:0;
+    padding:0;
+}
+html{
+    font-size:100px;
+    height:100%;
+}
+body{
+    font-family:"微软雅黑",Arial;
+    height:100%;
+    font-size:14px;
+    background:#f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+ul,li{
+    list-style:none;
+}
+img{
+    border:none;
+    display: block;
+}
